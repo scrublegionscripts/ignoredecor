@@ -1,0 +1,6 @@
+package-as: IgnoreDecor
+
+ignore:
+  - .github
+  - .gitignore
+  - README.md
