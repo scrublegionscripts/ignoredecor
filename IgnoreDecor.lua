@@ -25,11 +25,9 @@ frame:SetScript("OnEvent", function(self, event, ...)
             local itemName, _, _, _, _, _, _, _, _, _ = GetLootRollItemInfo(rollID)
             if C_Item.IsDecorItem(itemName) then
                 -- Check if the item is decor and should be ignored
-                if IgnoreDecorDB[itemName] then
-                    print("|cff00ff00IgnoreDecor|r: Ignoring decor item " .. itemName)
-                    -- Logic to pass on the item
-                    RollOnLoot(rollID, 0)
-                end
+                print("|cff00ff00IgnoreDecor|r: Ignoring decor item " .. itemName)
+                -- Logic to pass on the item
+                RollOnLoot(rollID, 0)
             end
         end
     end
