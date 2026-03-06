@@ -2,7 +2,7 @@
 ## Title: IgnoreDecor
 ## Notes: WoW addon to pass on decor that drops
 ## Author: Lucker 
-## Version: 0.1.3-stable
+## Version: 0.1.4-stable
 ## X-WAGO-ID: O67DdPK3
 ## X-CURSE-Project-ID: 1478785
 ## SavedVariables: IgnoreDecorDB
